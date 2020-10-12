@@ -2,7 +2,9 @@
 # coding: utf-8
 
 """
-Pyline counter gives the line count of your script / project.
+Pyline counter gives the line count of your script / project Python.
+Pyline counter has several options so that the result is as detailed and
+precise as you wish.
 usage: pyline_counter.py [-h] [-v] [-g] [-d] [-b] [-r] [-e]
 [-o [EXCLUDE_FOLDER]] [-i [EXCLUDE_FILE]]
 [-s [{file,nb,class,deco,func,doc,com,blank,_file,_nb,_class,_deco,_func,

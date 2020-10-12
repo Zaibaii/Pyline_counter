@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 # coding: utf-8
 
-"""Pyline gives the line count of your script / project"""
+"""Pyline gives the line count of your script / project Python."""
 
 # Import - standard
 import os.path as os_path
