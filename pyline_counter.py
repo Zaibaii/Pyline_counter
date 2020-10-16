@@ -141,5 +141,5 @@ def main():
 if __name__ == '__main__':
     main()
 
-# Amélioration possible
-# mettre le projet sur github
+# Possible improvement
+# Support other languages ?
