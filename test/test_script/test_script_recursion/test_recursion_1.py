@@ -1,14 +1,13 @@
 #! /usr/bin/env python3
-# coding: utf-8
 
 """ sample recursion 1
 """
 
 
 def main():
-    """Fonction principale du programme"""
+    """Main function of the program"""
 
-    print("coucou")
+    print("Hello")
 
 
 if __name__ == '__main__':

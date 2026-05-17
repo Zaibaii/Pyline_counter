@@ -1,5 +1,4 @@
 #! /usr/bin/env python3
-# coding: utf-8
 
 """
 
@@ -17,9 +16,9 @@ def do_twice(func):
 
 @do_twice
 def main():
-    """Fonction principale du programme"""
+    """Main function of the program"""
 
-    print("Whee!")
+    print("Yay!")
 
 
 if __name__ == '__main__':
