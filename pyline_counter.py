@@ -1,5 +1,4 @@
 #! /usr/bin/env python3
-# coding: utf-8
 
 """
 Pyline counter gives the line count of your script / project Python.
@@ -50,7 +49,6 @@ import sys
 import argparse
 
 # Import - local
-import lib_local.gui.gui as gui
 import lib_local.pyline as pl
 
 
@@ -124,6 +122,13 @@ def main():
         args.gui = True
 
     if args.gui:
+        try:
+            import lib_local.gui.gui as gui
+        except ImportError:
+            print("Unable to launch the graphical user interface.")
+            print("Please install wxPython: 'pip install wxPython'")
+            sys.exit(1)
+            
         guip = gui.Guip(args.path_or_file, args.verbose, args.detail,
                         args.byfile, args.recursive, args.exclude_empty,
                         args.exclude_folder, args.exclude_file, args.sort)
